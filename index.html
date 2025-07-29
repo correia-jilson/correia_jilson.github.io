@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Software Engineer</title>
+    <title>Jilson Correia - Software Engineer</title>
     
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -1309,20 +1309,46 @@ of production-ready features.</li>
         <div class="projects-grid">
             <div class="project-card">
                 <div class="project-image">
-                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-tachometer-alt"></i>
                 </div>
                 <div class="project-content">
-                    <h3 class="project-title">E-Commerce Platform</h3>
-                    <p class="project-description">A full-stack e-commerce solution with user authentication, payment processing, and admin dashboard. Features real-time inventory management and responsive design.</p>
+                    <h3 class="project-title">Distributed Rate Limiter Service</h3>
+                    <p class="project-description">Architected a high-performance distributed rate limiting service in Go with sub-millisecond latency, supporting 10,000+ RPS using
+Gin framework and Redis clustering. </p>
+                    <p>Implemented three industry-standard algorithms (Token Bucket, Fixed Window, Sliding Window) with atomic Lua scripts ensuring
+thread-safe operations and 99.9% availability.</p>
+                    <p>Built production-ready REST API with Docker containerization, structured JSON logging, graceful shutdown handling, and horizontal
+scaling capabilities.</p>
                     <div class="project-tech">
-                        <span class="tech-tag">React</span>
-                        <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">MongoDB</span>
-                        <span class="tech-tag">Stripe</span>
+                        <span class="tech-tag">Go</span>
+                        <span class="tech-tag">Redis</span>
+                        <span class="tech-tag">Rate Limiting Algorithms</span>
+                        <span class="tech-tag">Gin Web Framework</span>
+                        <span class="tech-tag">REST APIs, middleware, JSON handling</span>
                     </div>
                     <div class="project-links">
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                        <!-- <a href="https://github.com/correia-jilson/distributed-rate-limiter" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                        <a href="https://github.com/correia-jilson/distributed-rate-limiter" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Content Management System (CMS)</h3>
+                    <p class="project-description">Built a CMS platform using Spring Boot and React to manage courses and quizzes. Deployed Spring Boot microservice to AWS EC2 using Docker and GitHub Actions for streamlined delivery and scalability. Implemented OOP concepts such as inheritance, factory pattern, and secure file handling.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">SpringBoot</span>
+                        <span class="tech-tag">AWS, Docker</span>
+                        <span class="tech-tag">OOP's</span>
+                    </div>
+                    <div class="project-links">
+                        <!-- <a href="https://github.com/correia-jilson/JavaOODProject_CSYE7280.git" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                        <a href="https://github.com/correia-jilson/JavaOODProject_CSYE7280.git" class="project-link"><i class="fab fa-github"></i> GitHub</a>
                     </div>
                 </div>
             </div>
@@ -1332,37 +1358,86 @@ of production-ready features.</li>
                     <i class="fas fa-chart-line"></i>
                 </div>
                 <div class="project-content">
-                    <h3 class="project-title">Analytics Dashboard</h3>
-                    <p class="project-description">Real-time analytics dashboard for business metrics with interactive charts, data visualization, and automated reporting features.</p>
+                    <h3 class="project-title">Cricket Data Science Dashboard</h3>
+                    <p class="project-description">Performed end-to-end data analytics using Python, pandas, and NumPy on Cricket World Cup data. Created advanced visualizations in Matplotlib and Seaborn for performance insight. Applied feature engineering and model tuning for match outcome predictions.</p>
                     <div class="project-tech">
-                        <span class="tech-tag">Vue.js</span>
-                        <span class="tech-tag">D3.js</span>
                         <span class="tech-tag">Python</span>
-                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Seaborn</span>
+                        <span class="tech-tag">NumPy, pandas</span>
+                        <span class="tech-tag">Data Science</span>
                     </div>
                     <div class="project-links">
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                        <!-- <a href="https://github.com/correia-jilson/DataScience_FinalProject_INFO6105.git" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                        <a href="https://github.com/correia-jilson/DataScience_FinalProject_INFO6105.git" class="project-link"><i class="fab fa-github"></i> GitHub</a>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="project-card">
-                <div class="project-image">
-                    <i class="fas fa-mobile-alt"></i>
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+        <h2>Resume</h2>
+        <div class="resume-showcase">
+            <div class="resume-preview">
+                <div class="resume-icon">
+                    <i class="fas fa-file-pdf"></i>
                 </div>
-                <div class="project-content">
-                    <h3 class="project-title">Task Management App</h3>
-                    <p class="project-description">Cross-platform mobile app for task management with offline support, push notifications, and team collaboration features.</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">React Native</span>
-                        <span class="tech-tag">Firebase</span>
-                        <span class="tech-tag">Redux</span>
-                        <span class="tech-tag">TypeScript</span>
+                <h3 class="resume-title">Download My Resume</h3>
+                <p class="resume-subtitle">Get a comprehensive overview of my experience, skills, and achievements in a beautifully formatted PDF.</p>
+                
+                <div class="resume-actions">
+                    <a href="./resume.pdf" class="resume-btn resume-btn-primary" download>
+                        <i class="fas fa-download"></i>
+                        Download PDF
+                    </a>
+                    <a href="./resume.pdf" class="resume-btn resume-btn-secondary" target="_blank">
+                        <i class="fas fa-eye"></i>
+                        View Online
+                    </a>
+                </div>
+
+                <!-- <div class="resume-stats">
+                    <div class="resume-stat">
+                        <span class="resume-stat-number">4+</span>
+                        <span class="resume-stat-label">Years Experience</span>
                     </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                    <div class="resume-stat">
+                        <span class="resume-stat-number">50+</span>
+                        <span class="resume-stat-label">Projects Completed</span>
+                    </div>
+                    <div class="resume-stat">
+                        <span class="resume-stat-number">15+</span>
+                        <span class="resume-stat-label">Technologies</span>
+                    </div>
+                    <div class="resume-stat">
+                        <span class="resume-stat-number">3</span>
+                        <span class="resume-stat-label">Certifications</span>
+                    </div>
+                </div> -->
+            </div>
+
+            <div style="margin-top: 2rem; padding: 1.5rem; background: var(--bg-card); border-radius: 15px; border: 1px solid var(--border);">
+                <h4 style="color: var(--primary); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <i class="fas fa-lightbulb"></i>
+                    Quick Highlights
+                </h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; color: var(--text-secondary);">
+                    <div>
+                        <strong style="color: var(--text-primary);">🎯 Specialization:</strong><br>
+                        Software Development, Data Structures and Algorithms, Full-Stack Development
+                    </div>
+                    <div>
+                        <strong style="color: var(--text-primary);">🏆 Achievements:</strong><br>
+                        Masters in Computer Software Engineering
+                    </div>
+                    <div>
+                        <strong style="color: var(--text-primary);">🚀 Current Focus:</strong><br>
+                        Software Development
+                    </div>
+                    <div>
+                        <strong style="color: var(--text-primary);">📍 Location:</strong><br>
+                        Boston, MA (Open to Remote)
                     </div>
                 </div>
             </div>
@@ -1378,30 +1453,34 @@ of production-ready features.</li>
             <div class="contact-info">
                 <div class="contact-item">
                     <i class="fas fa-envelope"></i>
-                    <span>your.email@example.com</span>
+                    <span>correia.ji@northeastern.edu</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>jilsoncorreia102@gmail.com</span>
                 </div>
                 <div class="contact-item">
                     <i class="fas fa-phone"></i>
-                    <span>+1 (555) 123-4567</span>
+                    <span>+1 (857) 763-8363</span>
                 </div>
                 <div class="contact-item">
                     <i class="fas fa-map-marker-alt"></i>
-                    <span>San Francisco, CA</span>
+                    <span>Boston, MA</span>
                 </div>
             </div>
 
             <div class="social-links">
-                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/correia-jilson" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jilson-correia/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <!-- <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a> -->
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
+        <p>&copy; 2025 Jilson Correia. All rights reserved.</p>
     </footer>
 
     <script>
@@ -1512,7 +1591,7 @@ of production-ready features.</li>
 
         // Typing animation
         const typingElement = document.querySelector('.typing-animation');
-        const text = 'Your Name';
+        const text = 'Jilson Correia';
         let index = 0;
 
         function typeWriter() {
