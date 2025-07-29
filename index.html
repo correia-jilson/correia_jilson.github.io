@@ -8,6 +8,7 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     
     <style>
         * {
@@ -969,6 +970,15 @@
             transition: width 0.1s ease;
         }
     </style>
+
+    <!-- Add before closing </head> tag -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
 </head>
 <body>
     <div class="bg-animation"></div>
@@ -977,7 +987,7 @@
     <!-- Navigation -->
     <nav>
         <div class="nav-container">
-            <div class="logo">YourName</div>
+            <div class="logo">Jilson J Correia</div>
             <ul class="nav-links">
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
@@ -1026,7 +1036,7 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Hi, I'm <span class="typing-animation">Your Name</span></h1>
+            <h1>Hi, I'm <span class="typing-animation">Jilson Correia</span></h1>
             <p class="subtitle">Full-Stack Software Engineer crafting innovative solutions</p>
             <div class="cta-buttons">
                 <a href="#projects" class="btn btn-primary">View My Work</a>
@@ -1045,7 +1055,7 @@
                 </div>
             </div>
             <div class="about-text">
-                <p>I'm a passionate software engineer with 3+ years of experience building scalable web applications and solving complex problems. I love working with modern technologies and creating user-friendly solutions that make a real impact.</p>
+                <p>I'm a passionate software engineer with 1+ years of experience building scalable web applications and solving complex problems. I love working with modern technologies and creating user-friendly solutions that make a real impact.</p>
                 <br>
                 <p>When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community. I believe in writing clean, maintainable code and following best practices in software development.</p>
             </div>
@@ -1059,17 +1069,20 @@
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
-                    <div class="timeline-date">Jan 2023 - Present</div>
-                    <h3 class="timeline-title">Senior Software Engineer</h3>
-                    <div class="timeline-subtitle">Tech Company Inc. • San Francisco, CA</div>
+                    <div class="timeline-date">Jan 2025 - May 2025</div>
+                    <h3 class="timeline-title"> Software Development Engineer Intern</h3>
+                    <div class="timeline-subtitle">IpserLabs LLC • MountainView, CA</div>
                     <p class="timeline-description">
-                        Leading development of scalable microservices architecture serving 1M+ users. Mentoring junior developers and driving technical decisions for the platform team.
+                        IpserLab focuses on the garage phase of a startup, the transition from an idea to market validation and traction.
                     </p>
                     <ul class="timeline-achievements">
-                        <li>Architected and implemented microservices reducing system latency by 40%</li>
-                        <li>Led a team of 5 engineers in developing new user dashboard features</li>
-                        <li>Improved code coverage from 60% to 90% through comprehensive testing strategies</li>
-                        <li>Reduced deployment time by 70% by implementing CI/CD pipelines</li>
+                        <li>Built scalable backend services using Node.js and integrated REST APIs with React, improving system modularity.</li>
+                        <li>Contributed across the full Software Development Life Cycle, from requirement analysis and design to development and deployment
+of production-ready features.</li>
+                        <li>Deployed containerized ML models using FastAPI and Docker, enabling real-time prediction capabilities.</li>
+                        <li>Refactored legacy UI components into modular React architecture, enhancing maintainability and testability.</li>
+                        <li>Led debugging efforts and log analysis to resolve production defects, improving system reliability.</li>
+                        <li>Increased frontend responsiveness by 15% through optimization and performance tuning.</li>
                     </ul>
                     <div class="timeline-skills">
                         <span class="timeline-skill">React</span>
@@ -1084,29 +1097,37 @@
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
-                    <div class="timeline-date">Jun 2021 - Dec 2022</div>
-                    <h3 class="timeline-title">Full Stack Developer</h3>
-                    <div class="timeline-subtitle">StartupXYZ • Remote</div>
+                    <div class="timeline-date">Jan 2023 - Apr 2023</div>
+                    <h3 class="timeline-title">Full Stack Web Developer</h3>
+                    <div class="timeline-subtitle">IWMBUZZ • Mumbai INDIA</div>
                     <p class="timeline-description">
                         Developed and maintained web applications using modern JavaScript frameworks. Collaborated with cross-functional teams to deliver high-quality products.
                     </p>
                     <ul class="timeline-achievements">
-                        <li>Built responsive web applications used by 100K+ monthly active users</li>
-                        <li>Integrated third-party APIs reducing manual data entry by 80%</li>
-                        <li>Optimized database queries improving page load times by 50%</li>
-                        <li>Implemented real-time features using WebSocket technology</li>
-                    </ul>
+                        <li>Developed interactive and responsive UI components using React, improving page engagement by 20%</li>
+                        <li>Designed and integrated RESTful APIs with Node.js and MongoDB to support dynamic content rendering.</li>
+                        <li>Optimized application load speed by 25% by leveraging AWS CloudFront and S3 for static asset delivery.</li>
+                        <li>Set up CI/CD pipelines using GitHub Actions and Docker, reducing manual deployment time by 60%.</li>
+                        <li>Implemented application monitoring using AWS CloudWatch and custom health-check routes to improve uptime tracking.</li>
+                        <li>Collaborated with cross-functional design and SEO teams to implement structured metadata and improve Google indexing</li>
+                        <li>Wrote unit and integration tests using Jest and Selenium to ensure code reliability and prevent regressions.</li>
+                        <li>Participated in Agile ceremonies, sprint planning, and bi-weekly demos to align feature rollouts with marketing goals.</li>
                     <div class="timeline-skills">
-                        <span class="timeline-skill">Vue.js</span>
+                        <span class="timeline-skill">HTML/CSS</span>
+                        <span class="timeline-skill">JavaScript</span>
+                        <span class="timeline-skill">PHP</span>
+                        <span class="timeline-skill">WordPress</span>
+                        <span class="timeline-skill">MySQL</span>
+                        <span class="timeline-skill">MongoDB</span>
+                        <!-- <span class="timeline-skill">Vue.js</span>
                         <span class="timeline-skill">Python</span>
                         <span class="timeline-skill">Django</span>
-                        <span class="timeline-skill">MongoDB</span>
-                        <span class="timeline-skill">Redis</span>
+                        <span class="timeline-skill">Redis</span> -->
                     </div>
                 </div>
             </div>
 
-            <div class="timeline-item">
+            <!-- <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <div class="timeline-date">Aug 2020 - May 2021</div>
@@ -1129,7 +1150,7 @@
                         <span class="timeline-skill">MySQL</span>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -1140,17 +1161,12 @@
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
-                    <div class="timeline-date">2016 - 2020</div>
-                    <h3 class="timeline-title">Bachelor of Science in Computer Science</h3>
-                    <div class="timeline-subtitle">University of California • Berkeley, CA</div>
-                    <p class="timeline-description">
-                        Graduated Magna Cum Laude with a focus on software engineering and algorithms. Active in computer science clubs and hackathons.
-                    </p>
+                    <div class="timeline-date">2023 - 2025</div>
+                    <h3 class="timeline-title">Master of Science in Computer Software Engineering </h3>
+                    <div class="timeline-subtitle">Northeastern University • Boston, MA</div>
+                    
                     <ul class="timeline-achievements">
-                        <li>GPA: 3.8/4.0 • Dean's List for 6 semesters</li>
-                        <li>Winner of 3 hackathons including UC Berkeley's BigHack 2019</li>
-                        <li>Teaching Assistant for Data Structures and Algorithms course</li>
-                        <li>President of Computer Science Student Association (2019-2020)</li>
+                        <li>GPA: 3.8/4.0 •</li>
                     </ul>
                     <div class="timeline-skills">
                         <span class="timeline-skill">Data Structures</span>
@@ -1158,11 +1174,33 @@
                         <span class="timeline-skill">Software Engineering</span>
                         <span class="timeline-skill">Database Systems</span>
                         <span class="timeline-skill">Machine Learning</span>
+                        <span class="timeline-skill">Artificial Intelligence</span>
                     </div>
                 </div>
             </div>
 
             <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2023 - 2025</div>
+                    <h3 class="timeline-title">Bachelor of Science in Informatoin Technology  </h3>
+                    <div class="timeline-subtitle">Mumbai University • Mumbai, India</div>
+                    
+                    <ul class="timeline-achievements">
+                        <li>GPA: 3.76/4.0 •</li>
+                    </ul>
+                    <div class="timeline-skills">
+                        <span class="timeline-skill">Data Structures and Algorithms</span>
+                        <span class="timeline-skill">Cloud Computing</span>
+                        <span class="timeline-skill">Database Management</span>
+                        <span class="timeline-skill">Software Engineering</span>
+                        <span class="timeline-skill">Computer Systems</span>
+                        <span class="timeline-skill">Computer Architecture</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <div class="timeline-date">2020</div>
@@ -1177,81 +1215,93 @@
                         <li>Understanding of cost optimization strategies</li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <div class="timeline-date">2021</div>
-                    <h3 class="timeline-title">Google Cloud Professional Developer</h3>
-                    <div class="timeline-subtitle">Google Cloud Platform</div>
-                    <p class="timeline-description">
-                        Advanced certification in developing scalable and reliable applications using Google Cloud technologies.
-                    </p>
-                    <ul class="timeline-achievements">
-                        <li>Proficiency in GCP services and development tools</li>
-                        <li>Experience with containerization and Kubernetes</li>
-                        <li>Knowledge of serverless computing and microservices</li>
-                    </ul>
-                </div>
-            </div>
+            
         </div>
     </section>
     <section id="skills" class="section">
-        <h2>Technical Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-category">
-                <h3><i class="fas fa-code"></i> Frontend</h3>
-                <div class="skill-tags">
-                    <span class="skill-tag">React</span>
-                    <span class="skill-tag">Vue.js</span>
-                    <span class="skill-tag">Angular</span>
-                    <span class="skill-tag">TypeScript</span>
-                    <span class="skill-tag">JavaScript</span>
-                    <span class="skill-tag">HTML5</span>
-                    <span class="skill-tag">CSS3</span>
-                    <span class="skill-tag">Tailwind</span>
-                </div>
-            </div>
-            <div class="skill-category">
-                <h3><i class="fas fa-server"></i> Backend</h3>
-                <div class="skill-tags">
-                    <span class="skill-tag">Node.js</span>
-                    <span class="skill-tag">Python</span>
-                    <span class="skill-tag">Java</span>
-                    <span class="skill-tag">Express</span>
-                    <span class="skill-tag">Django</span>
-                    <span class="skill-tag">Spring Boot</span>
-                    <span class="skill-tag">REST APIs</span>
-                    <span class="skill-tag">GraphQL</span>
-                </div>
-            </div>
-            <div class="skill-category">
-                <h3><i class="fas fa-database"></i> Database & Cloud</h3>
-                <div class="skill-tags">
-                    <span class="skill-tag">PostgreSQL</span>
-                    <span class="skill-tag">MongoDB</span>
-                    <span class="skill-tag">Redis</span>
-                    <span class="skill-tag">AWS</span>
-                    <span class="skill-tag">Docker</span>
-                    <span class="skill-tag">Kubernetes</span>
-                    <span class="skill-tag">Firebase</span>
-                </div>
-            </div>
-            <div class="skill-category">
-                <h3><i class="fas fa-tools"></i> Tools & Others</h3>
-                <div class="skill-tags">
-                    <span class="skill-tag">Git</span>
-                    <span class="skill-tag">Jest</span>
-                    <span class="skill-tag">Webpack</span>
-                    <span class="skill-tag">CI/CD</span>
-                    <span class="skill-tag">Agile</span>
-                    <span class="skill-tag">Linux</span>
-                    <span class="skill-tag">Figma</span>
-                </div>
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Frontend</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Angular</span>
+                <span class="skill-tag">Vue.js</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">TypeScript</span>
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">Tailwind</span>
+                <span class="skill-tag">Figma</span>
             </div>
         </div>
-    </section>
+        <div class="skill-category">
+            <h3><i class="fas fa-server"></i> Backend</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">Express.js</span>
+                <span class="skill-tag">Spring Boot</span>
+                <span class="skill-tag">FastAPI</span>
+                <span class="skill-tag">Django</span>
+                <span class="skill-tag">Java</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Go</span>
+                <span class="skill-tag">C++</span>
+                <span class="skill-tag">Shell</span>
+                <span class="skill-tag">Bash</span>
+                <span class="skill-tag">REST APIs</span>
+                <span class="skill-tag">GraphQL</span>
+                <span class="skill-tag">Microservices</span>
+            </div>
+        </div>
+        <div class="skill-category">
+            <h3><i class="fas fa-database"></i> Database & Cloud</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">MySQL</span>
+                <span class="skill-tag">PostgreSQL</span>
+                <span class="skill-tag">MongoDB</span>
+                <span class="skill-tag">Redis</span>
+                <span class="skill-tag">DynamoDB</span>
+                <span class="skill-tag">Oracle</span>
+                <span class="skill-tag">Kafka</span>
+                <span class="skill-tag">AWS</span>
+                <span class="skill-tag">Azure</span>
+                <span class="skill-tag">GCP</span>
+                <span class="skill-tag">Firebase</span>
+                <span class="skill-tag">CloudFront</span>
+                <span class="skill-tag">EC2</span>
+                <span class="skill-tag">S3</span>
+                <span class="skill-tag">Lambda</span>
+            </div>
+        </div>
+        <div class="skill-category">
+            <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">GitHub Actions</span>
+                <span class="skill-tag">Jenkins</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">Kubernetes</span>
+                <span class="skill-tag">Terraform</span>
+                <span class="skill-tag">Airflow</span>
+                <span class="skill-tag">Postman</span>
+                <span class="skill-tag">Jira</span>
+                <span class="skill-tag">Selenium</span>
+                <span class="skill-tag">JUnit</span>
+                <span class="skill-tag">Jest</span>
+                <span class="skill-tag">CI/CD</span>
+                <span class="skill-tag">Agile</span>
+                <span class="skill-tag">Linux</span>
+                <span class="skill-tag">System Design</span>
+                <span class="skill-tag">Secure Coding</span>
+                <span class="skill-tag">Observability</span>
+            </div>
+        </div>
+    </div>
+</section>
+
 
     <!-- Projects Section -->
     <section id="projects" class="section">
